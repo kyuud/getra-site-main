@@ -1,0 +1,29 @@
+/******************************************************************
+************ CONFIGURANDO VHOSTS NO MAC USANDO MAMP ************/
+
+1° No arquivo que está na pasta: /private/etc/hosts 
+
+    ---> Adicionar a linha 127.0.0.1 dev.laravel-patener (ou o host desejado)
+
+2° No arquivo que está na pasta: /private/etc/apache2/httpd.conf
+
+    ---> Retirar o # da linha que tem o include
+
+         # Fancy directory listings 
+         Include /private/etc/apache2/extra/httpd-autoindex.conf
+
+3° No arquivo que está na pasta: /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf
+
+    ---> Adicionar o host
+
+    <VirtualHost dev.laravel-patener:80>
+        ServerAdmin webmaster@dummy-host2.example.com
+        DocumentRoot "/Applications/MAMP/htdocs/laravel-patener/public"
+        ServerName dev.laravel-patener
+        ErrorLog "/Applications/MAMP/logs/project.error_log"
+        CustomLog "/Applications/MAMP/logs/project.access.log" common
+    </VirtualHost>
+
+PS: No arquivo .env configura de acordo com o que está em .env.example.mac.with.mamp
+
+    

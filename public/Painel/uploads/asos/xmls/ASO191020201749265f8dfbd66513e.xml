@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esocial xmlns="http://www.esocial.gov.br/schema/evt/evtMonit/v02_05_00">
+  <evtMonit id="ID12312312312">
+    <ideEvento>
+      <indRetif>1</indRetif>
+      <tpAmb>2</tpAmb>
+      <procEmi>1</procEmi>
+      <verProc>SGG 1.0</verProc>
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc>1</tpInsc>
+      <nrInsc>02317123</nrInsc>
+    </ideEmpregador>
+    <ideVinculo>
+      <cpfTrab>123123</cpfTrab>
+      <nisTrab>1231</nisTrab>
+      <matricula>12312</matricula>
+    </ideVinculo>
+    <exMedOcup>
+      <tpExameOcup>4</tpExameOcup>
+      <aso>
+        <dtAso>2020-10-08</dtAso>
+        <resAso>apto</resAso>
+        <exame>
+          <dtExm>2020-10-08</dtExm>
+          <procRealizado>0295</procRealizado>
+          <obsProc>Normal</obsProc>
+          <ordExame>2</ordExame>
+          <indResult>1</indResult>
+        </exame>
+        <medico>
+          <cpfMed>03900737410</cpfMed>
+          <nmMed>Guilherme Cézar Soares</nmMed>
+          <nrCRM>9901</nrCRM>
+          <ufCRM>PB</ufCRM>
+        </medico>
+      </aso>
+      <respMonit>
+        <cpfMed>69037892272</cpfMed>
+        <nmResp>Thiago Barbosa de Carvalho</nmResp>
+        <nrCRM>8333</nrCRM>
+        <ufCRM>PB</ufCRM>
+      </respMonit>
+    </exMedOcup>
+  </evtMonit>
+</esocial>

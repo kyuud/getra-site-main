@@ -1,0 +1,4 @@
+/********************* CONFIGURANDO O SAVE DE LOGS ***********************/
+
+- Apenas substitui o arquivo que fica na pasta:vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php
+pelo que está na pasta: docs/configs/login/AuthenticatesUsers.php

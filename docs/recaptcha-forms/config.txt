@@ -1,0 +1,14 @@
+/******************************************************************
+************ CONFIGURANDO O RECAPTCHA NOS FORMULÁRIOS ************/
+
+1° Substituir o arquivo que está na pasta: /vendor/laravel/framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php
+
+    ---> Pelo que está nessa pasta: recaptcha-forms/SendsPasswordResetEmails.php
+
+2° Substituir o arquivo que está na pasta: /vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php
+
+    ---> Pelo que está nessa pasta: recaptcha-forms/ResetsPasswords.php
+
+3° Substituir o arquivo que está na pasta: /vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php
+
+    ---> Pelo que está nessa pasta: recaptcha-forms/AuthenticatesUsers.php

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esocial>
+  <evtMonit>
+    <ideEvento>
+      <indRetif>1</indRetif>
+      <tpAmb>2</tpAmb>
+      <procEmi>1</procEmi>
+      <verProc>SGG 1.0</verProc>
+    </ideEvento>
+    <ideEmpregador>
+      <tpInsc>1</tpInsc>
+      <nrInsc>02317123</nrInsc>
+    </ideEmpregador>
+    <ideVinculo>
+      <cpfTrab>12312</cpfTrab>
+      <nisTrab>1231</nisTrab>
+      <matricula>12312</matricula>
+    </ideVinculo>
+    <exMedOcup>
+      <tpExameOcup>4</tpExameOcup>
+      <aso>
+        <dtAso>2020-08-06</dtAso>
+        <resAso>apto</resAso>
+        <exame>
+          <dtExm>2020-08-06</dtExm>
+          <procRealizado>0295</procRealizado>
+          <obsProc>Normal</obsProc>
+          <ordExame>2</ordExame>
+          <indResult>1</indResult>
+        </exame>
+        <medico>
+          <cpfMed>12312</cpfMed>
+          <nmMed>asdasd</nmMed>
+          <nrCRM>123213</nrCRM>
+          <ufCRM>ad</ufCRM>
+        </medico>
+      </aso>
+      <respMonit>
+        <cpfMed>12312</cpfMed>
+        <nmResp>asdasd</nmResp>
+        <nrCRM>123213</nrCRM>
+        <ufCRM>ad</ufCRM>
+      </respMonit>
+    </exMedOcup>
+  </evtMonit>
+</esocial>
